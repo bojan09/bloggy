@@ -3,7 +3,6 @@ import styles from "@/styles/Home.module.css";
 
 // Components
 import BlogCard from "@/components/BlogCard";
-import Nav from "@/components/Nav";
 
 // Graph Ql
 import { GraphQLClient, gql } from "graphql-request";
