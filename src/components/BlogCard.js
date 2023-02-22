@@ -7,7 +7,7 @@ function BlogPost({ title, author, coverPhoto, datePublished, slug }) {
     <div className={styles.card}>
       <Link href={`/posts/${slug}`}>
         <div className={styles.imgContainer}>
-          <Image layout="fill" src={coverPhoto.url} alt="coverPhoto" />
+          <Image layout="fill" src={coverPhoto.url} alt="" />
         </div>
       </Link>
       <div className={styles.text}>
@@ -26,7 +26,4 @@ function BlogPost({ title, author, coverPhoto, datePublished, slug }) {
   );
 }
 
-{
-  /* <div dangerouslySetInnerHTML={{ __html: content.html }}></div> */
-}
 export default BlogPost;
