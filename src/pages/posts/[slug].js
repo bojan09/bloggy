@@ -87,7 +87,7 @@ export default function BlogPost({ post }) {
         <button className={styles.button}>Go Back</button>
       </Link>
 
-      <Link href={`https://koalendar.com/e/sostanok-so-finansiski-sovetnik`}>
+      <Link href={`https://koalendar.com/e/date-with-le-mua`}>
         <button className={styles.button}>Book Appointment</button>
       </Link>
     </main>
