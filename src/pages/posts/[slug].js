@@ -86,6 +86,10 @@ export default function BlogPost({ post }) {
       <Link href={`/`}>
         <button className={styles.button}>Go Back</button>
       </Link>
+
+      <Link href={`https://koalendar.com/e/sostanok-so-finansiski-sovetnik`}>
+        <button className={styles.button}>Book Appointment</button>
+      </Link>
     </main>
   );
 }
