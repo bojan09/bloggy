@@ -68,9 +68,11 @@ export default function Home({ posts }) {
             slug={post.slug}
           />
         ))}
-        <Link href={`https://koalendar.com/e/date-with-le-mua`}>
-          <button className={styles.button}>Book Appointment</button>
-        </Link>
+        <div className={styles.buttonContainer}>
+          <Link href={`https://koalendar.com/e/date-with-le-mua`}>
+            <button className={styles.button}>Закажи состанок</button>
+          </Link>
+        </div>
       </main>
     </div>
   );
