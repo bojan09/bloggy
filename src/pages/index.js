@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
+import Link from "next/link";
 
 // Components
 import BlogCard from "@/components/BlogCard";
@@ -67,6 +68,9 @@ export default function Home({ posts }) {
             slug={post.slug}
           />
         ))}
+        <Link href={`https://koalendar.com/e/date-with-le-mua`}>
+          <button className={styles.button}>Book Appointment</button>
+        </Link>
       </main>
     </div>
   );

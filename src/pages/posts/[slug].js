@@ -86,10 +86,6 @@ export default function BlogPost({ post }) {
       <Link href={`/`}>
         <button className={styles.button}>Go Back</button>
       </Link>
-
-      <Link href={`https://koalendar.com/e/date-with-le-mua`}>
-        <button className={styles.button}>Book Appointment</button>
-      </Link>
     </main>
   );
 }
